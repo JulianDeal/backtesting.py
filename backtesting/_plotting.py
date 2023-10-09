@@ -661,7 +661,7 @@ return this.labels[index] || "";
         plots,
         ncols=1,
         toolbar_location='right',
-        toolbar_options=dict(logo=None),
+        # toolbar_options=dict(logo=None),
         merge_tools=True,
         **kwargs  # type: ignore
     )
