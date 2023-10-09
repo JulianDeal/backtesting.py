@@ -722,7 +722,7 @@ def plot_heatmaps(heatmap: pd.Series, agg: Union[Callable, str], ncols: int,
     fig = gridplot(
         plots,  # type: ignore
         ncols=ncols,
-        toolbar_options=dict(logo=None),
+        # toolbar_options=dict(logo=None),
         toolbar_location='above',
         merge_tools=True,
     )
